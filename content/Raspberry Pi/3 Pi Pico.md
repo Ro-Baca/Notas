@@ -26,6 +26,11 @@ Al no tener sistema operativo, es necesario ca rgarle un programa a la placa, el
 | **Energía**          | Funciona entre 1.8V y 5.5V                                               |
 
 
+# Pinout
+---
+
+<p align="center"> <img src="Picopinout.svg" alt="Picopinout"> </p>
+
 # Modelos
 ---
 - **Pico (Original):** La placa base verde. Sin conectividad inalámbrica y sin pines soldados (viene con los agujeros para que tú mismo sueldes los headers o la montes directamente sobre otra placa).
@@ -37,6 +42,10 @@ Al no tener sistema operativo, es necesario ca rgarle un programa a la placa, el
 - **Pico WH:** La combinación de las dos anteriores: incluye el módulo inalámbrico (Wi-Fi/Bluetooth) y los pines ya soldados de fábrica.
     
 - **Pico 2 (Lanzada en 2024):** Utiliza el nuevo chip **RP2350**. Tiene más memoria, mayor velocidad (150 MHz) y una arquitectura dual única que te permite elegir entre usar núcleos ARM Cortex-M33 o núcleos RISC-V.
+
+
+<p align="center"> <img src="PicoVers.jpeg" alt="PicoVers"> </p>
+
 
 # Como trabajar con ella?
 ---
@@ -60,4 +69,34 @@ Si estás haciendo proyectos de robótica avanzada que requieren sincronización
 ## 3. CircuitPython
 
 Un fork de MicroPython mantenido por Adafruit. Es ideal si planeas usar el enorme catálogo de sensores de Adafruit, ya que tienen librerías listas para usar (plug-and-play) para casi cualquier componente físico que le quieras conectar.
+
+## Hola Mundo
+
+El equivalente al "Hola Mundo" en el desarrollo de microcontroladores es hacer parpadear el LED que viene integrado en la placa (_Blink_).
+
+``` Python
+from machine import Pin
+import time
+
+# Configura el LED integrado como un pin de salida
+# Nota: Usa 'LED' para la Pico W. Si tienes la Pico original (sin Wi-Fi), cambia 'LED' por el número 25.
+led = Pin('LED', Pin.OUT)
+
+# El "Super Loop" infinito
+while True:
+    led.value(1)      # Enciende el LED (envía voltaje)
+    time.sleep(0.5)   # Espera medio segundo
+    led.value(0)      # Apaga el LED (corta el voltaje)
+    time.sleep(0.5)   # Espera medio segundo
+``` 
+
+### ¿Cómo probarlo?
+
+1. Abre tu IDE (Thonny).
+2. Conecta la Pico por USB.
+3. Pega el código y presiona "Run" (Ejecutar).
+
+
+>[!faq] Callout
+>Para que el programa se ejecute solo cada vez que conectes la Pico a cualquier fuente de poder (como una batería o un cargador de celular), debes guardar el archivo directamente en la placa con el nombre exacto de **`main.py`**. El intérprete de MicroPython siempre busca ese archivo al arrancar.
 
