@@ -1,5 +1,0 @@
----
-title: Obsidian
-tags:
-  - obsidian
----
