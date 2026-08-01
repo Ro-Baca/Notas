@@ -46,19 +46,3 @@ No tienen sistema operativo. Ejecutan un solo programa en bucle.
     * **Lenguajes:** C/C++, MicroPython, CircuitPython.
     * *Nota:* La versión "W" incluye WiFi y Bluetooth.
 
----
-## Primeros Pasos (Setup Básico)
-
-### Para SBC (Pi 4 / Zero)
-1.  Descargar **Raspberry Pi Imager**.
-2.  Seleccionar el SO (Recomendado: *Raspberry Pi OS Lite* para servidores/robots).
-3.  **Configuración Avanzada (Ctrl+Shift+X):**
-    * Habilitar SSH.
-    * Configurar WiFi (SSID y Password).
-    * Establecer usuario y contraseña.
-4.  Flashear la microSD e insertar en la placa.
-
-### Para Pico
-1.  Mantener presionado el botón `BOOTSEL` al conectar por USB.
-2.  La Pico aparecerá como una memoria USB.
-3.  Arrastrar el archivo `.uf2` (MicroPython o CircuitPython) a la unidad.

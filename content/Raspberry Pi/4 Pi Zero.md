@@ -26,3 +26,9 @@ La versión más pequeña y barata. Ideal para proyectos **headless** o donde el
 * Pi-hole (bloqueo de anuncios).
 * Consolas retro portátiles (GPi Case).
 * Cerebro auxiliar en robots.
+
+
+# Configurando el SO
+---
+
+Para ver el procedimiento necesario para la configuración del SO aquí: [[2 Configuración Básica]]
