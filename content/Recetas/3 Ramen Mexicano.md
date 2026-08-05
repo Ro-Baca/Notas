@@ -1,6 +1,6 @@
 ---
-title: RaMex
-noteOrder: "1"
+title: Ramen Mexa
+noteOrder: "3"
 tags:
   - cocina
 draft: false
