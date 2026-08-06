@@ -1,6 +1,6 @@
 ---
 title: Ramen Mexa
-noteOrder: "3"
+noteOrder: "5"
 tags:
   - cocina
 draft: false

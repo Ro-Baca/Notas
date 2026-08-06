@@ -1,6 +1,6 @@
 ---
 title: Papas
-noteOrder: "11"
+noteOrder: "4"
 tags:
   - cocina
 draft: false

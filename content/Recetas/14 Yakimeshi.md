@@ -1,6 +1,6 @@
 ---
 title: Yakimeshi
-noteOrder: "13"
+noteOrder: "14"
 tags:
   - cocina
 draft: false

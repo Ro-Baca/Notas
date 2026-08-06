@@ -1,6 +1,6 @@
 ---
 title: Omelette de espinaca y kale
-noteOrder: "7"
+noteOrder: "9"
 tags:
   - cocina
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: Salsa de chilaquiles
-noteOrder: "4"
+noteOrder: "6"
 tags:
   - cocina
 draft: false

@@ -1,6 +1,6 @@
 ---
 title: Chilaquiles rojos
-noteOrder: "5"
+noteOrder: "7"
 tags:
   - cocina
 draft: false
@@ -28,7 +28,7 @@ Porciones: **4**
 2. Calienta el aceite y vierte lo licuado.
 3. Cocina por 10 minutos o hasta que espese ligeramente.
 
->[!Note] Los chilaquiles pueden prepararse con otros tipos de salsa, aqui hay mas [[4 Salsa de chilaquiles]]
+>[!Note] Los chilaquiles pueden prepararse con otros tipos de salsa, aqui hay mas [[6 Salsa de chilaquiles]]
 
 ## Totopos
 1. Sirve los totopos.

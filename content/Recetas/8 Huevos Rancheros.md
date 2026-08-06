@@ -1,6 +1,6 @@
 ---
 title: Huevos Rancheros
-noteOrder: "6"
+noteOrder: "8"
 tags:
   - cocina
 draft: false
