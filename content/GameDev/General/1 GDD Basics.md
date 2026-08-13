@@ -1,7 +1,8 @@
 ---
-title: Game Design Documents
+title: GDD
 tags:
   - videojuego
+  - Design
 noteOrder: "1"
 ---
 
