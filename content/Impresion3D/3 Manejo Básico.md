@@ -9,7 +9,7 @@ noteOrder: "3"
 ---
 Los filamentos siempre deben estar secos y limpios de polvo para evitar problemas en la impresión.
 
-Para colocar el filamento primero debemos calentarlo, por lo que usamos la impresora para calentar el extrusor, usando el rango de temperatura que indica el filamento (180º C a 200º C). ==Tambien hay que cortar la punta en un angulo para facilitar que pase por el tubo.==
+Para colocar el filamento primero debemos calentarlo, por lo que usamos la impresora para calentar el extrusor, usando el rango de temperatura que indica el filamento (180º a 200º C). ==Tambien hay que cortar la punta en un angulo para facilitar que pase por el tubo.==
 
 Despues debes colocar el filamento en su espacio asignado y pasar el filamento por el extrusor; hay que falar la palanca del extrusor para apretar el resorte y permitir el paso del filamento, hayq eu introducirlo hasta que se vea que sale por la boquilla extruyendo de 10 a 20 cm de material.
 
@@ -33,3 +33,4 @@ Existen 3 tipos de nivelaciones para la cama de impresión.
 - Al guardar el filamento es recomendado usar una bolsa ziploc con un paquete de silicón, para reducir lo mas posible la humedad.
 - Al abrir un filamento nuevo, no hay que soltar la punta para evitar que se hagan nudos.
 - Siempre cortar el filamento en angulo.
+- La temperatura de la primera capa puede ser 10º o 15º C mas alta para mejorar la sujeción 
