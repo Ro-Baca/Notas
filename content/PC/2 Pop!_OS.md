@@ -6,7 +6,7 @@ tags:
   - linux
 noteOrder: "2"
 ---
-## El sistema operativo
+# El sistema operativo
 ----
 Pop! os es una distribución de Linux basada en Ubuntu, desarrollada y mantenida por el fabricante de computadoras estadounidense **System76**. 
 Aunque esta diseñado para laptops, es posible usarla para cualquier tipo de computadora.
@@ -50,5 +50,39 @@ htop # Para ver el rendimiento del sistema
 neofetch # Para ver informacion del sistema
 
 sudo amdgpu_top --gui # Para ver una GUI con graficas de rendimiento vs tiempo
+```
+
+# Flatpack
+---
+Flatpak es un sistema universal para instalar y ejecutar aplicaciones. Funciona en casi cualquier distribución de Linux porque trae sus propias piezas necesarias y corre en un espacio seguro y separado del sistema principal.
+
+Permite instalar aplicaciones y actualizarlas al margen del gestor de paquetes de la distribución. Las aplicaciones Flatpak se instalan al margen de los paquetes instalados por la distribución y no pueden interferir el software base.
+
+Además estas aplicaciones se ejecutan en un entorno aislado  ([sandbox](https://en.wikipedia.org/wiki/Sandbox_\(computer_security\))) y cuentan con sus propio sistema de permisos; acceso al sistema de archivos, red, bluetooth, etc.
+
+Todas estas aplicaciones se pueden encontrar en [Flathub](https://flathub.org/home) que hace las veces de repositorio oficial.
+
+Para instalar una aplicación con Flatpak manualmente solo es necesario ejecutar el comando `flatpak install` indicando la URL de su referencia `.flatpakref`.`
+``` Bash
+flatpak install https://dl.flathub.org/repo/appstream/org.gimp.GIMP.flatpakref
+```
+En el repositorio Flathub se puede copiar la referencia `.flatpakref` de una aplicación utilizando su botón **INSTALL**.
+
+## Trobleshooting
+
+Para revisar las aplicaciones que tienes instaladas usando flatpack usa el comando.
+```Bash
+flatpak list
+```
+esto te regresara el **nombre**, **aplication id**, **version**, **branch** y **origin installation**
+
+Si alguna aplicacion no esta funcionando como deberia puedes tratar de correr el programa desde la terminal, para poder ver el log de error que regresa.
+```Bash
+flatpak run ApplicationID
+```
+
+O como alternativa siempre puedes intentar reinstalar el paquete por si fallo alguna actualización.
+```Bash
+flatpak install --reinstall flathub ApplicationID
 ```
 
