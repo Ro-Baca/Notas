@@ -4,9 +4,7 @@ tags:
   - videojuego
 noteOrder: "1"
 ---
-## Como aprender desarrollo de juegos:
 
----
 
 - Elegir un motor de desarrollo
     - Puede ser con codigo de bloques : scratch, game maker
